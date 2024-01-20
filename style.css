@@ -1,0 +1,49 @@
+.bg-image {
+    margin-top: -10px;
+    height: 600px;
+    background-image: url('images/sport.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.castle {position: absolute;
+       animation: castle 8s infinite linear; }
+.paiki {position: absolute;
+       animation: paiki 10s infinite linear;}
+.lazieri {position: absolute;
+     animation: lazieri 10s infinite linear;}
+
+@keyframes castle {
+     0%  {top:100px; right: 925px;}
+     100% {top:100px; right: 925px;}
+}
+
+@keyframes paiki {
+    0% {top:470px; right: 815px;}
+    10% {top:470px; right: 815px;}
+    15% {top:350px; right: 815px;}
+    20% {top:350px; right: 815px;}
+    25% {top:290px; right: 815px;}
+    30% {top:290px; right: 815px;}
+    35% {top:230px; right: 815px;}
+    40% {top:230px; right: 815px;}
+    45% {top:170px; right: 815px;}
+    50% {top:170px; right: 815px;}
+    55% {top:120px; right: 815px;}
+    60% {top:120px; right: 815px;}
+    61% {top:650px; right: 925px;}
+    100% {top:650px; right: 925px;}
+}
+
+@keyframes lazieri {
+    0% {top:650px; right: 925px;}
+    58% {top:650px; right: 925px;}
+    59% {top:120px; right: 815px;}
+    63% {top:120px; right: 815px;}
+    70% {top:120px; right: 925px;}
+    100% {top:120px; right: 925px;}
+    
+}
